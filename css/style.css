@@ -1,0 +1,13 @@
+:root {
+    --bg: #fbf9ff;
+    --text-main: #0b0226;
+    --primary: #531bf3;
+    --secondary: #f87ff0;
+    --accent: #f53fd0;
+}
+body, html {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: var(--bg);
+}

@@ -1,0 +1,36 @@
+p {
+    color: var(--text-main);
+    filter: opacity(0.6);
+    font-size: 18px;
+}
+h1 {
+    color: var(--text-main);
+    font-size: 48px;
+}
+#container {
+    display: flex;
+    width: 800px;
+    position: absolute;
+}
+#kreckove {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+#kreckove img {
+    width: 40%;
+    aspect-ratio: 1/1;
+}
+#texty {
+    display: flex;
+    flex-direction: column;
+}
+#texty a {
+    padding: 10px 36px;
+    background-color: var(--primary);
+    color: var(--bg);
+    translate: 0.25s;
+}
+#texty a:hover {
+    transform: scale(1.03);
+}
